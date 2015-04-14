@@ -1,5 +1,4 @@
-function(){
-
+var prompt = require('sync-prompt').prompt;
 
 var total = 100;
   
@@ -21,5 +20,3 @@ if (number === guess) {
   console.log("Wrong! The number was " + number + ". You have $" + total + " left");
 }
 }
-
-});
